@@ -1,7 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May  7 23:08:31 2021
-
-@author: gianc
-"""
+def prueba():
+    return """select nombre
+              from jugador jug join temporada tempo on (jug.id = tempo.id_jugador)
+              where tempo.id = 70"""
+  
+  # def consulta():
+#     return """consulta escrita en sql"""
 
